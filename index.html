@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurador de Aplicaciones para CircuitPython</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Configurador de Aplicaciones</h1>
+        <form id="configForm">
+            <label for="app1">Aplicación para Botón 1:</label>
+            <select id="app1"></select>
+
+            <label for="app2">Aplicación para Botón 2:</label>
+            <select id="app2"></select>
+
+            <label for="app3">Aplicación para Botón 3:</label>
+            <select id="app3"></select>
+
+            <label for="app4">Aplicación para Botón 4:</label>
+            <select id="app4"></select>
+
+            <label for="app5">Aplicación para Botón 5:</label>
+            <select id="app5"></select>
+
+            <label for="app6">Aplicación para Botón 6:</label>
+            <select id="app6"></select>
+
+            <label for="app7">Aplicación para Botón 7:</label>
+            <select id="app7"></select>
+
+            <label for="app8">Aplicación para Botón 8:</label>
+            <select id="app8"></select>
+
+            <label for="app9">Aplicación para Botón 9:</label>
+            <select id="app9"></select>
+
+            <button type="button" onclick="generarCodigo()">Generar Código</button>
+        </form>
+
+        <pre id="codigoOutput"></pre>
+        <button id="downloadBtn" style="display: none;" onclick="descargarCodigo()">Descargar Código</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
